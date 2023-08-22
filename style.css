@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;1,9..40,100;1,9..40,200;1,9..40,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body{
+    background-color: #111;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+}
+
+header h1{
+    color: white;
+    margin-right: 15px;
+}
+
+.titulo-header{
+    display: flex;
+    align-items: center;
+}
+
+header nav{
+    width: 50%;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.674);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+header ul li:hover{
+    transition: 1s;
+    cursor: pointer;
+    color:white;
+}
+
+.principal{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+}
+
+.descricao h1{
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.descricao .titulo-roxo{
+    color: #986dff;
+}
+
+.descricao p{
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.674);
+    margin-bottom: 20px;
+}
+
+.descricao .buttons-descricao button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #986dff;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    transition: 0.5s;
+}
+
+.descricao .buttons-descricao button:hover{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.minha-foto{
+    width: 400px;
+    border-radius: 400px;
+}
+
+.sobre-mim{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.box-sobre{
+    display: flex;
+    width: 70%;
+    height: 400px;
+    background-color: #151515;
+    border-radius: 5px;
+    border: 2px solid #1f1f1f;
+    padding: 20px;
+}
+
+.box-sobre .conteudo-imagem{
+    width: 30%;
+    margin-right: 20px;
+}
+
+.box-sobre img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.box-sobre .conteudo-box-sobre{
+    width: 70%;
+}
+
+.box-sobre .conteudo-box-sobre p{
+    margin-top: 15px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.674);
+}
+
+.icones-redes{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.icone-rede{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #151515;
+    border-radius: 5px;
+    border: 2px solid #1f1f1f;
+    padding: 10px;
+    width: 30px;
+    transition: 1s;
+}
+
+.icone-rede:hover{
+    background-color: #1f1f1f;
+    cursor: pointer;
+}
