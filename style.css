@@ -29,7 +29,7 @@ header h1{
 }
 
 header nav{
-    width: 50%;
+    width: 30%;
 }
 
 header ul{
@@ -159,4 +159,49 @@ header ul li:hover{
 .icone-rede:hover{
     background-color: #1f1f1f;
     cursor: pointer;
+}
+
+.experiencias{
+    background-color: #151515;
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.experiencias h1{
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.box-experiencias{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 70%;
+}
+
+.card-experiencia h2{
+    color: #986dff;
+    margin-bottom: 10px;
+}
+
+.card-experiencia span{
+    color: rgba(255, 255, 255, 0.674);
+    font-weight: 200;
+}
+
+.card-experiencia{
+    margin-top: 25px;
+    background-color: #111;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #1f1f1f;
+}
+
+.conhecimentos{
+    background-color: #111;
+    height: 500px;
 }
