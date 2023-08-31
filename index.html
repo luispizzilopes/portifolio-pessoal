@@ -7,7 +7,7 @@
     <title>Portifólio</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="inicio">
       <header>
         <div class="titulo-header">
           <h1>Portifólio</h1>
@@ -15,10 +15,10 @@
         </div>
         <nav class="nav-header">
           <ul>
-            <li>Ínicio</li>
-            <li>Quem sou</li>
-            <li>Experiências</li>
-            <li>Conhecimentos</li>
+            <li><a href="#inicio">Ínicio</a></li>
+            <li><a href="#quem-sou">Quem sou</a></li>
+            <li><a href="#exper">Experiências</a></li>
+            <li><a href="#conhecimentos">Conhecimentos</a></li>
           </ul>
         </nav>
       </header>
@@ -39,7 +39,7 @@
           />
         </div>
       </section>
-      <section class="sobre-mim" id="sobre-mim">
+      <section class="sobre-mim" id="quem-sou">
         <div class="box-sobre">
           <div class="conteudo-imagem">
             <img src="assets/maxresdefault.jpg" alt="representação" />
@@ -52,9 +52,9 @@
               estou trabalhando como Assistente de Sistemas Junior no Grupo
               Felidae e cursando Análise e Desenvolvimento de Sistemas no
               Instituto Federal de Educação, Ciência e Tecnologia de São Paulo.
-              Com grande paixão pela programação, estou em constante
-              aprimoramento e atualização para acompanhar as tendências e
-              tecnologias do mercado.
+              Com grande paixão pela programação, estou sempre em aprimoramento
+              e atualização para acompanhar as tendências e tecnologias do
+              mercado.
             </p>
             <nav class="icones-redes">
               <div class="icone-rede">
@@ -179,12 +179,9 @@
           </div>
         </div>
       </section>
-      <section class="experiencias">
+      <section class="experiencias" id="exper">
         <div class="box-experiencias">
-          <h1 style="display: flex; margin-right: 5px">
-            Experiências
-            <p style="color: #986dff">.</p>
-          </h1>
+          <h1>Experiências</h1>
           <div class="card-experiencia">
             <h2>Estagiário de TI <span>- AC Comércio de Variedades</span></h2>
             <p>
@@ -226,21 +223,63 @@
           <div class="card-experiencia">
             <h2>Assistente de Sistemas Junior <span>- Grupo Felidae</span></h2>
             <p>
-              Experiência em análise e desenvolvimento de sistemas,
-              com foco em aplicações de tecnologias como ASP.NET e ASP.NET
-              Core para a construção do backend. Minha atenção está voltada para
-              a criação e otimização de APIs REST de alto desempenho, utilizando
-              o Entity Framework Core para realizar o mapeamento de tabelas
-              existentes no banco de dados. Complementando essa habilidade,
-              utilizo o ReactJS no frontend para criar interfaces de usuário
-              modernas e interativas.
+              Experiência em análise e desenvolvimento de sistemas, com foco em
+              aplicações de tecnologias como ASP.NET e ASP.NET Core para a
+              construção do backend. Minha atenção está voltada para a criação e
+              otimização de APIs REST de alto desempenho, utilizando o Entity
+              Framework Core para realizar o mapeamento de tabelas existentes no
+              banco de dados. Complementando essa habilidade, utilizo o ReactJS
+              no frontend para criar interfaces de usuário modernas e
+              interativas.
             </p>
           </div>
         </div>
       </section>
-      <section class="conhecimentos">
-
+      <section class="conhecimentos" id="conhecimentos">
+        <div class="box-conhecimento">
+          <h1>Conhecimentos</h1>
+          <div class="cards-conhecimentos">
+            <div class="card-conhecimento">
+              <img src="assets/icons8-c-afiado-logotipo-150.png" alt="" />
+            </div>
+            <div class="card-conhecimento">
+              <img src="assets/NET_Core_Logo.svg.png" alt="" />
+            </div>
+            <div class="card-conhecimento">
+              <img src="assets/icons8-javascript-150.png" alt="" />
+            </div>
+            <div class="card-conhecimento">
+              <img src="assets/icons8-node-js-144.png" alt="" />
+            </div>
+            <div class="card-conhecimento">
+              <img src="assets/icons8-reagir-160.png" alt="" />
+            </div>
+          </div>
+          <div class="cards-conhecimentos">
+            <div class="card-conhecimento">
+              <img src="assets/icons8-html5-150(1).png" alt="" />
+            </div>
+            <div class="card-conhecimento">
+              <img src="assets/icons8-css3-150.png" alt="" />
+            </div>
+            <div class="card-conhecimento">
+              <img src="assets/icons8-bootstrap-128.png" alt="" />
+            </div>
+            <div class="card-conhecimento">
+              <img src="assets/icons8-microsoft-sql-server-144.png" alt="" />
+            </div>
+            <div class="card-conhecimento">
+              <img src="assets/icons8-my-sql-128.png" alt="" />
+            </div>
+          </div>
+        </div>
       </section>
+      <footer>
+        <div>
+          <img src="assets/dev-icon.png" alt="Dev icone" width="25px" />
+          <p>Copyright © 2023 luispizzilopes.dev.br - Todos os direitos reservados. </p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
